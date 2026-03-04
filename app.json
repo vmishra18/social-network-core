@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "social-network-goit",
+    "slug": "social-network-goit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/4a599954-f8c7-4aa9-bd84-2a08c985a2d7"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zvereva.socialnetworkgoit"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.zvereva.socialnetworkgoit"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a599954-f8c7-4aa9-bd84-2a08c985a2d7"
+      }
+    },
+    "owner": "zvereva",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
